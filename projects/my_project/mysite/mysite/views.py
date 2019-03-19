@@ -60,6 +60,10 @@ def transfer_site2(request):
     context = {'rma2':Clubs(money=100).show_players_rma4()}
     return render(request, 'mysite/transfer_index.html', context)
 
+def transfer_site5(request):
+    call_club = Clubs(money=100)
+    return HttpResponse(call_club.show_players_rma(),call_club)
+
 
 
 

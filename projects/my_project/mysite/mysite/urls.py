@@ -30,7 +30,9 @@ urlpatterns = [
     url(r'^my_2_url$', index_json, name='index2'),
     url(r'^', include('polls.urls')),
     url(r'^transfer_site_url$', transfer_site, name= 'transfer_url'),
-    url(r'^transfer_site2_url$',transfer_site2, name= 'transfer_url2')
+    url(r'^transfer_site2_url$',transfer_site2, name= 'transfer_url2'),
+
+
 
     # # ex: /polls/
     # url(r'^$', views.index, name='index'),
