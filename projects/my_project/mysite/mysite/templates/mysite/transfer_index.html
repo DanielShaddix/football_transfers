@@ -27,9 +27,15 @@
 
 <table border="1"cellpadding="5px">
     <tr style = 'background:cornflowerblue;colar:white'>
-        {% for last_names in all_last_names %}
-            <th> {{ last_names }} </th>
+        {% for player in all_last_names %}
+            <tr style = 'background:cornflowerblue;colar:white'>
+                <th> {{ player.last_names }} </th>
+            <th> {{ player.price }} mil </th>
+            <th> {{ player.age }} age </th>
+            <th> {{ player.club }} </th>
+            </tr>
         {% endfor %}
+        {{ all_last }}
 
     </tr>
 </table>

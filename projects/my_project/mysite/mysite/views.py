@@ -67,10 +67,8 @@ def transfer_site5(request):
 
 def transfer_list(request):
     all_last_names = Transfers_List.objects.all()
-    all_age = Transfers_List.objects.all()
     context ={
         'all_last_names': all_last_names,
-        'all_age': all_age
      }
     return render(request, 'mysite/transfer_index.html', context)
 
