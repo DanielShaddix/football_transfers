@@ -26,6 +26,24 @@ class Choice(models.Model):
     autor = models.CharField(max_length=50, blank=True)
 
 
+class Addition(models.Model):
+    question = models.ForeignKey(Question, on_delete=models.CASCADE)
+    Addition = models.CharField(max_length=200)
+
+
+class Transfers_List(models.Model):
+    last_names = models.CharField(max_length=50)
+    names = models.CharField(max_length=50)
+    age = models.IntegerField(default=18)
+    club = models.CharField(max_length=50)
+    price = models.IntegerField(default=1)
+
+    def __str__(self):
+        return self.last_names
+
+
+
+
 # class transfer(models.Model):
 #     clubls = models.t
     # def __str__(self):

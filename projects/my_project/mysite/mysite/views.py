@@ -4,9 +4,10 @@ from mysite.transfers import Clubs
 from django.template import RequestContext, loader
 from django.shortcuts import render_to_response
 from django.shortcuts import render
+from polls.models import Question,Transfers_List
 
 
-def index(request):
+def index0(request):
     return HttpResponse("Hello, world. You're at the polls index. qweqwe <br> <b>qweqwe</b>")
 
 
@@ -63,6 +64,15 @@ def transfer_site2(request):
 def transfer_site5(request):
     call_club = Clubs(money=100)
     return HttpResponse(call_club.show_players_rma(),call_club)
+
+def transfer_list(request):
+    all_last_names = Transfers_List.objects.all()
+    all_age = Transfers_List.objects.all()
+    context ={
+        'all_last_names': all_last_names,
+        'all_age': all_age
+     }
+    return render(request, 'mysite/transfer_index.html', context)
 
 
 

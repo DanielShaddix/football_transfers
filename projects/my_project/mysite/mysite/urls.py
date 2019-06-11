@@ -17,29 +17,34 @@ from django.contrib import admin
 
 from django.conf.urls import url, include
 
-
-
-from mysite.views import index, index_json, transfer_site, transfer_site2
-
-
+from polls import views
+from mysite.views import index0, index_json, transfer_site, transfer_site2,transfer_list
+#from  polls.views import index,detail,vote,results
 
 
 urlpatterns = [
     url('admin/', admin.site.urls),
-    url(r'^my_1_url$', index, name='index'),
+    url(r'^my_1_url$', index0, name='index'),
     url(r'^my_2_url$', index_json, name='index2'),
     url(r'^', include('polls.urls')),
     url(r'^transfer_site_url$', transfer_site, name= 'transfer_url'),
     url(r'^transfer_site2_url$',transfer_site2, name= 'transfer_url2'),
+    url(r'^transfer_list$',transfer_list,name='transfer_list'),
 
 
+    # ex: /polls/
+    url(r'^$', views.index, name='index'),
+    # ex: /polls/5/
+    url(r'^(?P<question_id>[0-9]+)/$', views.detail, name='detail'),
+    # ex: /polls/5/results/
+    url(r'^(?P<question_id>[0-9]+)/results/$', views.results, name='results'),
+    # ex: /polls/5/vote/
+    url(r'^(?P<question_id>[0-9]+)/vote/$', views.vote, name='vote'),
 
-    # # ex: /polls/
-    # url(r'^$', views.index, name='index'),
-    # # ex: /polls/5/
-    # url(r'^(?P<question_id>[0-9]+)/$', views.detail, name='detail'),
-    # # ex: /polls/5/results/
-    # url(r'^(?P<question_id>[0-9]+)/results/$', views.results, name='results'),
-    # # ex: /polls/5/vote/
-    # url(r'^(?P<question_id>[0-9]+)/vote/$', views.vote, name='vote'),
+    url(r'^$', views.IndexView.as_view(), name='index'),
+    url(r'^(?P<pk>[0-9]+)/$', views.DetailView.as_view(), name='detail'),
+    url(r'^(?P<pk>[0-9]+)/results/$', views.ResultsView.as_view(), name='results'),
+    url(r'^(?P<question_id>[0-9]+)/vote/$', views.vote, name='vote'),
+
+    #url(r'^polls/latest\.html$', views.index),
 ]

@@ -23,8 +23,18 @@
      </p></li>
  </tr>
     {% endfor %}
-
 </ul>
+
+<table border="1"cellpadding="5px">
+    <tr style = 'background:cornflowerblue;colar:white'>
+        {% for last_names in all_last_names %}
+            <th> {{ last_names }} </th>
+        {% endfor %}
+
+    </tr>
+</table>
+
+
 
 
 
