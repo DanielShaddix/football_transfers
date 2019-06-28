@@ -18,7 +18,8 @@ from django.contrib import admin
 from django.conf.urls import url, include
 
 from polls import views
-from mysite.views import index0, index_json, transfer_site, transfer_site2,transfer_list
+#from mysite import views
+from mysite.views import index0, index_json, transfer_site, transfer_site2,transfer_list,get_player,transfer_list_id
 #from  polls.views import index,detail,vote,results
 
 
@@ -27,10 +28,14 @@ urlpatterns = [
     url(r'^my_1_url$', index0, name='index'),
     url(r'^my_2_url$', index_json, name='index2'),
     url(r'^', include('polls.urls')),
-    url(r'^transfer_site_url$', transfer_site, name= 'transfer_url'),
+    url(r'^transfetransfer_site_urlr_site_url$', transfer_site, name= 'transfer_url'),
     url(r'^transfer_site2_url$',transfer_site2, name= 'transfer_url2'),
     url(r'^transfer_list$',transfer_list,name='transfer_list'),
-
+    url(r'^get_player$',get_player,name='get_player'),# ВЫЗОВ МЕТОДА "get_player"
+    #url(r'^(?P<players_id>[0-4]+)/$', get_player, name='get_player'),
+    #url(r'^transfer_list_id$',transfer_list_id,name='transfer_list_id'),
+    #url(r'^(?P<player_id>[0-1]+)/transfer_list_id/$', transfer_list_id, name='transfer_list_id'),
+    #url(r'^transfer_list_id$',transfer_list_id==1,name='transfer_list_id'),
 
     # ex: /polls/
     url(r'^$', views.index, name='index'),

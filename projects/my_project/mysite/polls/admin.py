@@ -8,7 +8,7 @@ class QuestionAdmin(admin.ModelAdmin):
     list_display = ('question_text', 'pub_date',)
 
 class Transfers_ListAdmin(admin.ModelAdmin):
-    list_display = ('last_names','names','age','club','price')
+    list_display = ('id','last_names','names','age','club','price')
 
 
     # def players(self,obj):

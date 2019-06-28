@@ -29,6 +29,7 @@
     <tr style = 'background:cornflowerblue;colar:white'>
         {% for player in all_last_names %}
             <tr style = 'background:cornflowerblue;colar:white'>
+                <th> {{ player.id }} </th>
                 <th> {{ player.last_names }} </th>
             <th> {{ player.price }} mil </th>
             <th> {{ player.age }} age </th>
@@ -36,10 +37,21 @@
             </tr>
         {% endfor %}
         {{ all_last }}
-
     </tr>
 </table>
 
+{#<table>#}
+{#    {% for players in id %}#}
+{#     <tr style = 'background:darkred;colar:black'>#}
+{#        <th> {{ players.last_names }} </th>#}
+{#    {% endfor %}#}
+{#<table/>#}
+
+{#{% for player in id %}#}
+{#    <a href="{{ player.id }}">{{ player.last_names }}</a>#}
+{#{% endfor %}#}
+
+{#<li><a href="{% url 'get_player' players.id %}">{{ players.last_names }}</a></li>#}
 
 
 

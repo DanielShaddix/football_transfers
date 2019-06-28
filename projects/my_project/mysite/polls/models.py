@@ -32,6 +32,7 @@ class Addition(models.Model):
 
 
 class Transfers_List(models.Model):
+    id = models.IntegerField(primary_key=True)
     last_names = models.CharField(max_length=50)
     names = models.CharField(max_length=50)
     age = models.IntegerField(default=18)
