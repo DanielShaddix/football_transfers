@@ -19,7 +19,7 @@ from django.conf.urls import url, include
 
 from polls import views
 #from mysite import views
-from mysite.views import index0, index_json, transfer_site, transfer_site2,transfer_list,get_player,transfer_list_id
+from mysite.views import index0, index_json, transfer_site, transfer_site2,transfer_list,get_player,players,try_p,transfer_list_id
 #from  polls.views import index,detail,vote,results
 
 
@@ -32,6 +32,8 @@ urlpatterns = [
     url(r'^transfer_site2_url$',transfer_site2, name= 'transfer_url2'),
     url(r'^transfer_list$',transfer_list,name='transfer_list'),
     url(r'^get_player$',get_player,name='get_player'),# ВЫЗОВ МЕТОДА "get_player"
+    url(r'^players$',players, name='players'),
+    url(r'^try_p$',try_p, name='try_p'),
     #url(r'^(?P<players_id>[0-4]+)/$', get_player, name='get_player'),
     #url(r'^transfer_list_id$',transfer_list_id,name='transfer_list_id'),
     #url(r'^(?P<player_id>[0-1]+)/transfer_list_id/$', transfer_list_id, name='transfer_list_id'),
