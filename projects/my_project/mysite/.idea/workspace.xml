@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/polls/apps.py" line="4" />
-    <bookmark url="file://$PROJECT_DIR$/mysite/urls.py" line="45" />
-    <bookmark url="file://$PROJECT_DIR$/polls/urls.py" line="8" />
-    <bookmark url="file://$PROJECT_DIR$/../env_my_project/lib/python3.6/site-packages/django/conf/__init__.py" />
-    <bookmark url="file://$PROJECT_DIR$/polls/models.py" line="9" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="f5ca32cd-8d4b-4966-9687-73385620bdd0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -23,6 +16,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
@@ -31,35 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polls/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polls/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+            <state relative-caret-position="270">
+              <caret line="44" column="119" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="119" />
               <folding>
                 <element signature="e#0#629#1" />
                 <element signature="e#630#662#0" expanded="true" />
@@ -68,23 +51,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="104" selection-start-line="104" selection-end-line="104" />
+            <state relative-caret-position="357">
+              <caret line="212" selection-start-line="212" selection-end-line="219" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#1166#1240#0" />
+                <element signature="e#2406#2442#0" />
+                <element signature="e#3680#3802#0" />
+                <element signature="e#3804#3841#0" />
+                <element signature="e#4495#4668#0" />
+                <element signature="e#4699#5329#0" />
+                <element signature="e#5361#5936#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/templates/mysite/transfer_index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -117,6 +97,7 @@
       <find>vote</find>
       <find>id</find>
       <find>transfer_list</find>
+      <find>get_players</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -165,12 +146,12 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="27" />
-    <option name="width" value="679" />
+    <option name="width" value="669" />
     <option name="height" value="633" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -223,7 +204,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -298,7 +279,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -348,11 +329,40 @@
       <workItem from="1561660350929" duration="4543000" />
       <workItem from="1561718716512" duration="6515000" />
       <workItem from="1561826832956" duration="5111000" />
+      <workItem from="1562146638593" duration="1543000" />
+      <workItem from="1562236330925" duration="4634000" />
+      <workItem from="1562671927371" duration="2414000" />
+      <workItem from="1562756997916" duration="4995000" />
+      <workItem from="1562852476806" duration="1749000" />
+      <workItem from="1562931073551" duration="5058000" />
+      <workItem from="1562948353074" duration="308000" />
+      <workItem from="1562948685187" duration="4358000" />
+      <workItem from="1563125194619" duration="2347000" />
+      <workItem from="1563130778596" duration="1348000" />
+      <workItem from="1563268191666" duration="5145000" />
+      <workItem from="1563535298341" duration="626000" />
+      <workItem from="1564486502951" duration="2958000" />
+      <workItem from="1564582940911" duration="903000" />
+      <workItem from="1564584330377" duration="2473000" />
+      <workItem from="1564923580870" duration="1290000" />
+      <workItem from="1567505225281" duration="3270000" />
+      <workItem from="1567536352061" duration="3838000" />
+      <workItem from="1567667967807" duration="2121000" />
+      <workItem from="1567754555927" duration="2597000" />
+      <workItem from="1568015733828" duration="599000" />
+      <workItem from="1568105125919" duration="3023000" />
+      <workItem from="1568186129435" duration="1617000" />
+      <workItem from="1568392027818" duration="1497000" />
+      <workItem from="1568540100798" duration="4724000" />
+      <workItem from="1568797428911" duration="5311000" />
+      <workItem from="1569249855103" duration="2006000" />
+      <workItem from="1569315325881" duration="2029000" />
+      <workItem from="1569344378882" duration="806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108358000" />
+    <option name="totallyTimeSpent" value="183945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -360,7 +370,7 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" sideWeight="0.500846" side_tool="true" weight="0.23902822" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49915397" visible="true" weight="0.3519553" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49915397" visible="true" weight="0.28651237" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32994923" />
@@ -370,14 +380,14 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.20642978" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3293718" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3293718" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32960895" />
       <window_info anchor="right" id="SciView" order="4" />
     </layout>
     <layout-to-restore>
@@ -462,13 +472,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/transfer.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="71" column="56" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rma.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -588,16 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polls/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/polls/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-60">
@@ -608,9 +601,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/mysite/transfer_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="71" column="56" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/polls/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="510">
           <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -618,30 +638,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/urls.py">
+    <entry file="file://$PROJECT_DIR$/mysite/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        <state relative-caret-position="357">
+          <caret line="212" selection-start-line="212" selection-end-line="219" />
           <folding>
-            <element signature="e#0#629#1" />
-            <element signature="e#630#662#0" expanded="true" />
+            <element signature="e#1166#1240#0" />
+            <element signature="e#2406#2442#0" />
+            <element signature="e#3680#3802#0" />
+            <element signature="e#3804#3841#0" />
+            <element signature="e#4495#4668#0" />
+            <element signature="e#4699#5329#0" />
+            <element signature="e#5361#5936#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/mysite/transfer_index.html">
+    <entry file="file://$PROJECT_DIR$/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        <state relative-caret-position="270">
+          <caret line="44" column="119" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="119" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#629#1" />
+            <element signature="e#630#662#0" expanded="true" />
           </folding>
         </state>
       </provider>
